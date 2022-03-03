@@ -10,14 +10,14 @@
     "repositories":[
     	{
     		"type":"git",
-    		"url":"https://gitee.com/fenglang888_admin/basic_extend.git"
+    		"url":"https://gitee.com/fenglang888_admin/basic.git"
     	}
     ],
     
 "require"加上: 
 
     {
-        "fenglang888_admin/basic_extend":"1.*"
+        "fenglang888_admin/basic":"1.*"
     }
     
 **2、执行composer update**
