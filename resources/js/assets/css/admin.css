@@ -1,0 +1,18 @@
+.mo-page {
+    margin-top:20px;
+}
+.el-aside>.el-scrollbar>.el-scrollbar__wrap{
+    overflow-x: hidden;
+}
+.title-color{
+    color:#42b983;
+}
+
+.el-table th  {
+    color:#1f2d3d;
+    padding:8px 0;
+    background-color:#F2F6FC;
+}
+.el-table td{
+    padding:8px 0;
+}

@@ -1,0 +1,45 @@
+{
+    "name": "yk/basic",
+    "description": "Basic admin is a component of laravel, vue, element build backend system.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yk",
+            "email": "1623808940@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "smartins/passport-multiauth": "~5.0",
+        "spatie/laravel-permission": "^5.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.5",
+        "mockery/mockery": "^1.0",
+        "orchestra/database": "^3.5",
+        "doctrine/dbal": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "YK\\Basic\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YK\\Basic\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YK\\Basic\\Providers\\BasicServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability":"dev",
+    "prefer-stable": true
+}
