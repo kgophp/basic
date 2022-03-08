@@ -5,22 +5,9 @@
 
 基于基础框架的搭建
 
-**1、修改composer配置**
+**1、下载laravel**
 
-    "repositories":[
-    	{
-    		"type":"git",
-    		"url":"https://gitee.com/fenglang888_admin/basic.git"
-    	}
-    ],
-    
-"require"加上: 
-
-    {
-        "fenglang888_admin/basic":"1.*"
-    }
-    
-**2、执行composer update**
+**2、执行composer require kgophp/basic**
     
 
 **3、执行数据迁移，数据填充**
