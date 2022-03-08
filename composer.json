@@ -1,5 +1,5 @@
 {
-    "name": "yk/basic",
+    "name": "kgophp/basic",
     "description": "Basic admin is a component of laravel, vue, element build backend system.",
     "type": "library",
     "license": "MIT",
